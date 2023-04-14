@@ -17,13 +17,13 @@ pipeline {
 
         stage('Test Frontend') {
           steps {
-            echo 'Running Frondend'
+            echo 'Running Frontend'
           }
         }
 
         stage('Test Backend') {
           steps {
-            echo 'Running and Testing Backend .....'
+            echo 'Testing and Running Backend .....'
           }
         }
 
@@ -32,7 +32,7 @@ pipeline {
 
     stage('Deploy App') {
       steps {
-        echo 'Deploy Success..)'
+        echo 'Deploy Success. :)'
       }
     }
 
