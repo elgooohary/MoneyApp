@@ -13,7 +13,8 @@
   ```
    docker-compose down
   ```
-- First create database
+- `First create database`
+
 - Backend run on:
   ```
   localhost:3000 .
