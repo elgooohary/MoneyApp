@@ -11,8 +11,9 @@
   ```
 - Stop container and delete :
   ```
-    docker-compose down
+   docker-compose down
   ```
+- First create database
 - Backend run on:
   ```
   localhost:3000 .
